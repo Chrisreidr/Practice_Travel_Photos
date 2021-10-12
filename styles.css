@@ -1,0 +1,165 @@
+a {
+  text-decoration: none;
+  color: #f9f8fa;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9f8fa;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+input {
+  background-color: #3882f6;
+  color: #f9f8fa;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  border-color: #5eaaa8;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid lightgray;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  color: #f9f8fa;
+  font-family: "Raleway", sans-serif;
+}
+
+.author {
+  text-align: center;
+  margin-left: 400px;
+}
+
+#call-to-action {
+  display: flex;
+  text-align: start;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9f8fa;
+  margin: 5% 15%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: #f9f8fa;
+  padding: 10px;
+}
+
+.photo-title {
+  text-align: start;
+  font-size: 46px;
+  font-weight: bold;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#top-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  color: #f9f8fa;
+  padding: 15px;
+}
+
+#middle-container {
+  margin: 80px auto;
+  font-weight: bold;
+}
+
+#bottom-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.locations {
+  font-family: "Scheherazade New", serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 400px;
+  text-align: start;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  gap: 400px;
+  padding-bottom: 80px;
+}
+
+.second-line {
+  margin-top: 0;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.left {
+  color: #f9f8fa;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  padding: 0 300px;
+  text-align: start;
+}
+
+#world {
+  height: auto;
+  width: 50px;
+}
